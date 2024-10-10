@@ -110,6 +110,9 @@ border-right: 1px solid #4a9561;
 .chatbot-custom-box{
   z-index: 444;
 }
+.chatbox-form-custom-box{
+  padding: 6px;
+}
 .filter-box-custom{
  background-color: #4a9561; 
 }

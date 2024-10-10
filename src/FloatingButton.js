@@ -51,7 +51,7 @@ const FloatingButton = () => {
 
             {isOpen && (
                 <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center transition-opacity duration-300 chatbot-custom-box">
-                    <div className="bg-white rounded-lg p-6 shadow-lg w-80 transform transition-transform duration-300 relative p-0">
+                    <div className="bg-white rounded-lg p-6 shadow-lg w-80 transform transition-transform duration-300 relative p-0 chatbox-form-custom-box">
                         <div className='flex chatbot-form-custom' >
                         <img src={Chatlogo}/>
                         <h2 className="text-lg font-bold m-0 text-left">LiveChat</h2>
