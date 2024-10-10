@@ -17,7 +17,7 @@ function Navbar() {
   const links = ['About', 'Realtors', 'News', 'Blogs', 'Events', 'Contacts'];
 
   return (
-    <header className="flex justify-between items-center px-10 py-3 absolute top-0 left-0 right-0 z-30 navbar-parent-custom">
+    <header className="flex justify-between items-center px-10 py-3 sticky top-0 left-0 right-0 z-50 navbar-parent-custom">
      <img src={mgclogo}/>
 
       <div className="hidden sm:flex gap-16">

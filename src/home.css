@@ -11,20 +11,9 @@ html{
     height: 200px;
   }
   
-  h2 {
-    position: relative;
-    font-size: 2.25rem;
-    background-color: #f0f0f0;
-    color: #3498db;
-    text-align: center;
-    padding: 2%;
-    margin: 0.5rem;
-  }
+
   
-  .slick-slide.is-active h2 {
-    color: #c00;
-    background-color: #fff;
-  }
+
   
   .slider-container {
     width: 80%;
@@ -72,6 +61,8 @@ height: 100vh;
 }
 .floating-button-custom{
   z-index: 555;
+  filter: grayscale(100%) sepia(100%) hue-rotate(70deg) saturate(600%) brightness(90%);
+
 }
 
 .hero-content-custom-box{
@@ -92,31 +83,35 @@ height: 100vh;
   z-index: 1; /* Ensure it sits on top of the background image */
 }
 .floating-button-custom img{
-  filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.5));
+  /* filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.5)); */
   width: 50px;
 
 }
 .filter-button-custom{
-  background-color: black;
-  border: 1px solid black;
+  background-color: white;
+  border: 1px solid #4a9561;
   padding-right: 30px;
   font-size: 15px;
+  color: #4a9561;
   padding-left: 30px;
   border-radius: 30px;
-  font-weight: 300;
+  font-weight: 400;
 }
 .filter-button-custom:hover{
   background-color: white;
-  border: 0px solid black;
-  color: black;
-  border: 1px solid black;
+  border: 0px solid #4a9561;
+  color: #4a9561;
+  border: 1px solid #4a9561;
 }
 .filter-box-custom select{
   border: none;
-border-right: 1px solid black;
+border-right: 1px solid #4a9561;
 }
 .chatbot-custom-box{
   z-index: 444;
+}
+.filter-box-custom{
+ background-color: #4a9561; 
 }
 
 
@@ -162,6 +157,7 @@ border-right: 1px solid black;
 }
 .second-box-custom{
   font-size: 45px;
+  color: #4a9561;
   text-transform: uppercase;
   font-weight: 200;
 }
@@ -169,11 +165,12 @@ border-right: 1px solid black;
 
 .chatbot-form-custom{
   align-items: center;
+  gap: 7px;
   padding-left: 15px;
 }
 .chatbot-custom-box h2{
   background: transparent;
   font-size: 15px;
-  color: black;
+  color: #4a9561;
 }
 
