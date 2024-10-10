@@ -1,0 +1,35 @@
+.link-hover {
+    position: relative;
+  }
+  
+  .link-hover::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px; /* Adjust the height as needed */
+    width: 100%;
+    background-color: white; /* Change to your desired color */
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+  }
+  
+  .link-hover:hover::after,
+  .link-active::after { /* Apply active styles here */
+    transform: scaleX(1);
+  }
+  
+  .link-hover:hover {
+    color: white; /* Optional: Change color on hover */
+  }
+  
+  .link-active {
+    color: white /* Optional: Change color when active */
+  }
+  .navbar-parent-custom{
+    background-color: rgba(0, 0, 0, 0.3); 
+  }
+
+.navbar-parent-custom img{
+  width: 70px;
+}
